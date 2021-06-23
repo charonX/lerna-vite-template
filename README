@@ -1,0 +1,21 @@
+### 全局安装lerna
+
+```
+npm i -g lerna
+```
+### lerna 常用命令
+
+```
+# 创建一个子package
+$ lerna create <name> [loc]
+
+# 代替npm install，可以统一安装所有子packages的依赖
+$ lerna bootstrap
+
+
+# 添加依赖
+$ lerna add <pkg> [--scope=子package name]
+
+# 相当于在所有子package下执行 npm run <script>
+lerna run <script>
+```
