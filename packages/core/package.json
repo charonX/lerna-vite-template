@@ -1,0 +1,40 @@
+{
+  "name": "@ceditor/core",
+  "version": "0.0.2",
+  "description": "> TODO: description",
+  "author": "张磊 <zhanglei@geekplus.com.cn>",
+  "homepage": "https://github.com/charonX/ceditor#readme",
+  "license": "ISC",
+  "main": "lib/demo.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charonX/ceditor.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "precommit": "lint-staged"
+  },
+  "bugs": {
+    "url": "https://github.com/charonX/ceditor/issues"
+  },
+  "dependencies": {
+    "pixi.js": "^6.0.0"
+  },
+  "devDependencies": {
+    "lint-staged": "^11.0.0",
+    "typescript": "^4.3.2",
+    "eslint": "^7.28.0",
+    "eslint-config-alloy": "^4.1.0",
+    "eslint-config-prettier": "^8.3.0",
+    "@typescript-eslint/eslint-plugin": "^4.27.0",
+    "@typescript-eslint/parser": "^4.27.0",
+    "prettier": "2.3.1"
+  }
+}
